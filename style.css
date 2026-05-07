@@ -1,0 +1,52 @@
+body {
+  background-image: url('los\ temerarios.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  
+  /* Esto centra el contenido */
+  display: flex;
+  justify-content: center;  /* Centro horizontal */
+  align-items: center;      /* Centro vertical */
+}
+
+
+.signup-box {
+    width: 320px;
+    text-align: center;
+}
+
+.signup-box h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.signup-box input{
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 4px;
+    background: #282828;
+    color: #fff;
+}
+
+.signup-box button{
+    width: 100%ç;
+    padding: 12px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 24px;
+    background: #1ed760;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signup-box a{
+    color: #1ed760;
+    text-decoration: none;
+}
